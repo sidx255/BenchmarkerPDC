@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29123.88
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmarking", "Benchmarking\Benchmarking.csproj", "{06C3CE05-77FC-4631-9812-DEA52EC86AE5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmarker", "Benchmarker\Benchmarker.csproj", "{874F59AE-52A8-49B2-9C98-653164631D95}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{235C6351-5D3D-46F9-9577-835EDCBE4676}"
+	ProjectSection(SolutionItems) = preProject
+		build.ps1 = build.ps1
+		CHANGELOG.md = CHANGELOG.md
+		Dockerfile = Dockerfile
+		.github\workflows\label-manager.yml = .github\workflows\label-manager.yml
+		.github\labels.json = .github\labels.json
+		.github\workflows\netcore.yml = .github\workflows\netcore.yml
+		Readme.md = Readme.md
+		.github\workflows\secrets-checker.yml = .github\workflows\secrets-checker.yml
+	EndProjectSection
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "BenchmarkerGUI", "BenchmarkerGUI\BenchmarkerGUI.fsproj", "{273E3695-06A8-4868-A09D-C79C3C8FD975}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06C3CE05-77FC-4631-9812-DEA52EC86AE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06C3CE05-77FC-4631-9812-DEA52EC86AE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06C3CE05-77FC-4631-9812-DEA52EC86AE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06C3CE05-77FC-4631-9812-DEA52EC86AE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{874F59AE-52A8-49B2-9C98-653164631D95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{874F59AE-52A8-49B2-9C98-653164631D95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{874F59AE-52A8-49B2-9C98-653164631D95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{874F59AE-52A8-49B2-9C98-653164631D95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{273E3695-06A8-4868-A09D-C79C3C8FD975}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{273E3695-06A8-4868-A09D-C79C3C8FD975}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{273E3695-06A8-4868-A09D-C79C3C8FD975}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{273E3695-06A8-4868-A09D-C79C3C8FD975}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {481993DB-395C-41A1-BA3D-6502BD4F0BC0}
+	EndGlobalSection
+EndGlobal

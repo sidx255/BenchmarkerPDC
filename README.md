@@ -108,7 +108,6 @@ Detailed system specs:
 ## Authors
 
 - Siddharth Sharma
-- Tuhin Chakrabarty
 
 ## Acknowledgements
 
